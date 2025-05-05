@@ -4,6 +4,6 @@ This repository is for keeping work and materials related to learning and traini
 
 ## Contents
 
-freecodecamp.org
-    - HTML Labs
-        1. Build a recipe page
+### FreeCodeCamp.org:
+- HTML Labs
+  1. Build a recipe page
