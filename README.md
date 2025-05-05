@@ -5,5 +5,7 @@ This repository is for keeping work and materials related to learning and traini
 ## Contents
 
 ### FreeCodeCamp.org:
-- HTML Labs
-  1. Build a recipe page
+
+HTML Labs:
+1. <u>Basic HTML</u>: Build a recipe page
+2. <u>Semantic HTML</u>: tbd...
