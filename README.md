@@ -10,5 +10,6 @@ This repository is for keeping work and materials related to learning and traini
 1. <u>Basic HTML</u>: 
 - Create a recipe page
 - Create a travel agency page
+- Create a video compilation page. Choose fireplace as the theme.
 2. <u>Semantic HTML</u>: tbd...
 #### CSS Labs:
