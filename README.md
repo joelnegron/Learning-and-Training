@@ -8,8 +8,11 @@ This repository is for keeping work and materials related to learning and traini
 
 #### HTML Labs:
 1. <u>Basic HTML</u>: 
-- Create a recipe page
-- Create a travel agency page
-- Create a video compilation page. Choose fireplace as the theme.
-2. <u>Semantic HTML</u>: tbd...
+- Build a recipe page.
+- Build a travel agency page.
+- Build a video compilation page.
+2. <u>Semantic HTML</u>:
+- Build an event hub page.
+3. <u>HTML Forms and Tables</u>:
+- Build a survey form.
 #### CSS Labs:
