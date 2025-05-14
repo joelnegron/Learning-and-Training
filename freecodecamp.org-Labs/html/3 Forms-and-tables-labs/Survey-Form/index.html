@@ -9,29 +9,46 @@
     <h1 id="title">Hospital Patient Satisfaction Survey</h1>
     <p id="description">This survey is to rate your the treatment you received at the our facility.</p>
     <form id="survey-form">
-      <label id="name-label">Patient Name:</label>
-      <input id="name" type="text", placeholder="Enter your Name">
+      <label for="name" id="name-label">Patient Name:</label>
+      <input id="name" type="text" placeholder="Enter your Name" required>
       <br>
-      <label id="email-label">Patient Email:</label>
-      <input id="email" type="email" placeholder="Enter your Email">
+      <label for="email" id="email-label">Patient Email:</label>
+      <input id="email" type="email" placeholder="Enter your Email" required>
       <br>
-      <label id="number-label">Satisfaction Score 1 to 5 (with 5 being most satisfied):</label>
+      <label for="number" id="number-label">Satisfaction Score 1 to 5 (with 5 being most satisfied):</label>
       <input id="number" type="number" min="1" max="5" Placeholder="1 to 5">
       <br><br>
-      <label>Department Visited:</label>
-      <br><br>
+      <legend>Department Visited:</legend>
+      <br>
       <select name="dropdown" id="dropdown">
         <option value="pediatric">Pediatric</option>
         <option value="radiology">Radiology</option>
         <option value="ER">Emergency Room</option>
       </select>
       <br><br>
-      <label>Were your medical care needs resolved in a timely maner?</label>
-      <br><br>
+      <legend>Were your medical care needs resolved in a timely maner?</legend>
+      <br>        
       <label for="yes-button">Yes</label>
-      <input id="yes-button"name="care-meet" type="radio">
+      <input id="yes-button" name="care-meet" type="radio" value="yes">
       <label for="no-button">No</label>
-      <input id="no-button"name="care-meet" type="radio">
+      <input id="no-button" name="care-meet" type="radio" value="no">
+      <br><br>
+      <legend>How could we make your next experience a better one?</legend>
+      <br>
+      <label for="ontime"></label>
+      <input type="checkbox" name="ontime" id="ontime" value="ontime">Less delays on services</input>
+      <label for="staff"></label>
+      <input type="checkbox" name="staff" id="staff" value="staff">More attentive staff</input>
+      <label for="clean"></label>
+      <input type="checkbox" name="clean" id="clean" value="clean">Cleaner facility</input>
+      <label for="update"></label>
+      <input type="checkbox" name="update" id="update" value="update">Updates on wait times</input>
+      <br><br>
+      <label for="comment">Additional Suggestions:</label>
+      <br>
+      <textarea type="textarea" name="comment" id="comment">Write your suggestions here...</textarea>
+      <br>
+      <button id="submit" type="submit">Submit</button>
     </form>
   </body>
 </html>
