@@ -15,4 +15,5 @@ This repository is for keeping work and materials related to learning and traini
 - Build an event hub page.
 3. <u>HTML Forms and Tables</u>:
 - Build a survey form.
+- Create a book catalog table.
 #### CSS Labs:
